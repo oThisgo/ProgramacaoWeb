@@ -26,6 +26,7 @@ session_start()
     
     ?>
     <table>
+        <h1 id="perfil">Seu perfil</h1>
         <tr>
             <th>Imagem</th>
             <th>Nome</th>
@@ -39,7 +40,11 @@ session_start()
             <td><?php echo $result['email'] ?></td>
             <td><?php echo $result['usuario'] ?></td>
             <td><?php echo $result['senha'] ?></td>
+            <td><a class="edit" href="edit.php">Editar</a></td>
+            <td><a class="delete" href="#">Excluir</a></td>
         </tr>
     </table>
+
+    
 </body>
 </html>

@@ -84,13 +84,13 @@ table{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 15%;
+    margin-top: 30px;
     height: fit-content;
     width: fit-content;
     padding: 30px;
     background-color: white;
     border: 3px solid #00930f;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 th{
@@ -122,8 +122,32 @@ td:hover{
 #profile{
     display: block;
     margin: 0 auto;
-    height: 60px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border: 3px solid #00930f;
     border-radius: 50%;
+}
+#perfil{
+    color: #00930f;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #00930f;
+    border-radius: 10px;
+}
+
+.edit{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.delete{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
 }
